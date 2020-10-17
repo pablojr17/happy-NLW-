@@ -24,8 +24,8 @@ export default function OrphanagesMap() {
       <MapView 
         provider={PROVIDER_GOOGLE}
         initialRegion={{
-          latitude: -27.2092052,
-          longitude: -49.6401092,
+          latitude: -12.0291501,
+          longitude: -44.2575254,
           latitudeDelta: 0.008,
           longitudeDelta: 0.008,
         }} 
@@ -35,8 +35,8 @@ export default function OrphanagesMap() {
           icon={mapMarkerImg}
           calloutAnchor={{ x: 2.7, y: 0.8 }}
           coordinate={{ 
-            latitude: -27.2092052,
-            longitude: -49.6401092
+            latitude: -12.0291501,
+            longitude: -44.2575254
           }}
         >
           <Callout tooltip={true} onPress={handleNavigateToOrphanageDetails}>
